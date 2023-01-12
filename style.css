@@ -30,6 +30,7 @@ li{
 .div1{
     grid-area: one;
     padding: 2px;
+    border-radius: 20px;
     
 
 }
@@ -45,9 +46,11 @@ li{
 .div3{
 grid-area: three;
 padding: 2px;
+border-radius: 2px;
 }
 .div4{
 grid-area: four;
+border-radius: 2px;
 padding: 2px;
 justify-items: center;
 
@@ -55,21 +58,24 @@ justify-items: center;
 }
 .div5{
 grid-area: five;
-padding: 2px;
+border-radius: 2px;
+padding: 10px;
 display: flex;
 flex-direction: row;
 
 }
 .div6{
 grid-area: six;
-padding: 2px;
+border-radius: 2px;
+padding: 10px;
 display: flex;
 flex-direction: row;
 }
 .div7{
-margin: 10px;
+
 grid-area: seven;
-padding: 2px;
+padding: 10px;
+border-radius: 2px;
 display: flex;
 flex-direction: row
 }
@@ -87,11 +93,12 @@ flex-direction: row
 
 }
 img{
-    padding: 20px 8px;
+    
     border-radius: 5px;
 }
 .layout1{
     display: flex;
+    justify-content: start;
     flex-direction: column;
 }
 button{
