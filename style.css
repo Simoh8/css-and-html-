@@ -1,0 +1,102 @@
+
+.container{
+    height: 95vh;
+    width: 95vw;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.content{
+ display: grid;
+ grid-template-columns: 3,1fr;
+ grid-template-rows: 3,1fr ;
+ height: 80%;
+ width: 95%;
+ justify-content: center ;
+ align-content: center;
+ 
+ grid-template-areas: 
+ "one one two"
+ "three four two"
+ "five six seven" ;
+
+}
+li{
+    list-style: none;
+    display: inline;   
+    
+}
+
+.div1{
+    grid-area: one;
+    padding: 2px;
+    
+
+}
+.div2{
+    align-items: center;
+    background-color: rgb(1, 1, 31);
+    grid-area: two;
+    padding: 2px;
+    border-radius: 2px;
+    justify-content: start;
+   
+}
+.div3{
+grid-area: three;
+padding: 2px;
+}
+.div4{
+grid-area: four;
+padding: 2px;
+justify-items: center;
+
+
+}
+.div5{
+grid-area: five;
+padding: 2px;
+display: flex;
+flex-direction: row;
+
+}
+.div6{
+grid-area: six;
+padding: 2px;
+display: flex;
+flex-direction: row;
+}
+.div7{
+margin: 10px;
+grid-area: seven;
+padding: 2px;
+display: flex;
+flex-direction: row
+}
+.only{
+    color: white;
+}
+.menu{
+    justify-content: space-between;
+   
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: flex-end;
+    padding: 10px;
+
+}
+img{
+    padding: 20px 8px;
+    border-radius: 5px;
+}
+.layout1{
+    display: flex;
+    flex-direction: column;
+}
+button{
+   padding: 15px 32px;
+}
+.attribution{
+   margin-top: 20px;
+}
