@@ -12,8 +12,11 @@
  grid-template-rows: 3,1fr ;
  height: 80%;
  width: 95%;
+ font-size: 13px;
  justify-content: center ;
  align-content: center;
+ 
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
  grid-template-areas: 
  "one one two"
@@ -21,9 +24,13 @@
  "five six seven" ;
 
 }
+ul{
+    padding-left: 10px;
+}
 li{
     list-style: none;
-    display: inline;   
+    display: inline; 
+    padding: 10px;  
     
 }
 
@@ -40,7 +47,7 @@ li{
     grid-area: two;
     padding: 2px;
     border-radius: 2px;
-    justify-content: start;
+    justify-items: center;
    
 }
 .div3{
@@ -58,24 +65,33 @@ justify-items: center;
 }
 .div5{
 grid-area: five;
-border-radius: 2px;
-padding: 10px;
+margin-top: 10px;
+
 display: flex;
 flex-direction: row;
 
 }
+h5{
+    padding: 2px 5px;
+}
+.div4 button :hover{
+    color: blue;
+}
+p{
+    
+}
 .div6{
 grid-area: six;
-border-radius: 2px;
-padding: 10px;
+margin-top: 10px;
+
 display: flex;
 flex-direction: row;
 }
 .div7{
 
 grid-area: seven;
-padding: 10px;
-border-radius: 2px;
+margin-top: 10px;
+
 display: flex;
 flex-direction: row
 }
@@ -84,17 +100,18 @@ flex-direction: row
 }
 .menu{
     justify-content: space-between;
-   
+   padding-right: 40px;
     display: flex;
     flex-direction: row;
     float: right;
     align-items: flex-end;
-    padding: 10px;
+    padding-left:  30px;
 
 }
 img{
     
-    border-radius: 5px;
+    border-radius: 2px;
+    padding-right: 5px;
 }
 .layout1{
     display: flex;
@@ -103,7 +120,11 @@ img{
 }
 button{
    padding: 15px 32px;
+   background-color: brown;
 }
 .attribution{
    margin-top: 20px;
+}
+.menu ul li:hover{
+    background-color: aqua;
 }
